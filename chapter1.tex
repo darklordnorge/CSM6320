@@ -1,6 +1,6 @@
 Constraint satisfaction problems(CSP) are mathematical problems defined as a set of objects whose state must satisfy a number of constraints or limitations. One example of a CSP is the game “Sudoku” \\[3ex]
 
-\subsection{Basic terms about CSP:}
+\section{Basic terms about CSP:}
 \begin{itemize}
 \item an assignment is to assign values to some or all variables
 \item an assignment that does not violate any constraints is called a consistent assignment. With values from domain D\_i
@@ -62,7 +62,7 @@ Given two variables $X_i$ , $X_j$ with values in {0,1,2,...9} and constraints
 To make $X_i$ arc-consistent with respect to $X_j$, we reduce $X_i$’s domain to {0,1,2,3}.\\
 To make $X_j$ arc-consistent with respect to $X_i$, we reduce $X_j$’s domain to {0,1,4,9}.\\
 
-\subsection{Arc Consistency Algorithm(AC-3)}
+\section{Arc Consistency Algorithm(AC-3)}
 \includegraphics[scale=1]{chap1_pics/1nAyMlelLl-LW-ECO-Akl5AsNAugdRshrNF4o7Q.png} 
 \begin{enumerate}
 \item initially let a queue contain all arcs
@@ -75,10 +75,99 @@ To make $X_j$ arc-consistent with respect to $X_i$, we reduce $X_j$’s domain t
 \item Keep checking all arcs in the queue until the queue is empty 
 \end{enumerate}
 
-\subsection{Path consistency}
+\section{Path consistency}
 \includegraphics[scale=1]{chap1_pics/patchconsistency.jpeg} 
+A two variable set ${X_i,X_j}$ is path consistency with respect to a third variable $X_m$ if for every assignment ${X_i = a, X_j = b}$ consistent with the constraints on${X_i, X_j}$, where is an assignment to $X_m$ ,that satisfies the constraints on${X_i , X_m}$ and ${X_m, X_j}$ \\[3ex]
+
+Example:\\
+Can we color the Australia map with two colors?\\
+Make the set {WA, SA} path consistent with respect to NT?\\
+Assignments: {WA = blue, SA = red} or {WA =blue,SA=red}\\
+But no assignment exists for NT\\[3ex]
+
+\textbf{Constraint propagation}
+\begin{itemize}
+\item constraint propagation is a specific type of inference 
+\begin{itemize}
+\item use the constraints to reduce the number of legal values for a variable, which in turn can reduce the legal values for another variable, and so on
+\end{itemize}
+
+\item node consistency
+\item arc consistency
+\item path consistency 
+\item k-consistency: k variables involved
+\item Global consistency 
+
+\end{itemize}
+
+\textbf{Limits}
+\begin{itemize}
+\item Indeed AC-3 works for the easiest Sudoku puzzles
+\item slightly harder ones can be solved by PC-2, but at a greater computational cost: there are 255,960 
+different path constraints to consider in a Sudoku puzzle
+\item To solve the hardest puzzles and to make efficient progress, we will have to be more clever 
+
+\end{itemize}
+
+\section{Backtracking}
+\includegraphics[scale=1]{chap1_pics/backtracking.jpeg} 
+
+\begin{enumerate}
+\item Select an unassigned value
+\item assign values
+\item Depth-first search
+\item If an inconsistency is detected, then BACKTRACK returns failure, causing the previous call to try another value
+\end{enumerate}
+
+Backtracking search is a depth-first search for CSPs
+\begin{itemize}
+\item choose values for one variable at a time
+\item backtrack when a variables has no legal left to assign
+\end{itemize}
+Backtracking search is the basic uninformed algorithm for CSP.
+Can solve n-queens for $n\approx 25.$
+
+\includegraphics[scale=1]{chap1_pics/backtrackcode.jpeg}
+\subsection{Improving backtracking efficiency}
+General-purpose methods can give huge gains in speed:\\
+\begin{enumerate}
+\item which variable should be assigned next?
+\item in what order should values be tried`?
+\item can we detect inevitable failure early?
+\item Can we take advantage of problem structure? 
+\end{enumerate}
+
+\textbf{Minimum remaining values}\\
+Minimum remaining values (MRV): choose the variable with the fewest legal values.
+
+\textbf{Degree heuristic}\\
+\begin{itemize}
+\item Tie-breaker among MRV variables
+\item Degree heuristic: choose the variable with the most constraints on remaining variables 
+\end{itemize}
+\includegraphics[scale=1]{chap1_pics/backtrack2.jpeg}
+
+\textbf{Least constraining value}\\
+Given a variable, choose the least constraining value: the one that rules out the fewest values in the remaining variables.\\
+
+\includegraphics[scale=1]{chap1_pics/backtrack3.jpeg}
+Combining these heuristics makes 1000 queens feasible.\\
 
 
+\textbf{Forward checking}\\
+Idea: Keep track if remaining legal values for unassigned variables.\\
+Terminates search when any variable has no legal values.\\
 
+\includegraphics[scale=1]{chap1_pics/australiamap.jpeg}\\
+\includegraphics[scale=1]{chap1_pics/backtrack4.jpeg}
 
+\textbf{Constraint propagation}\\
+Forward checking propagates information from assigned to unassigned variables, but doesn’t provide early detection for all failures: \\
+\includegraphics[scale=1]{chap1_pics/backtrack4.jpeg}
 
+NT and SA cannot both be blue!\\
+Constraint propagation repeatedly enforces constraints locally.\\
+
+\textbf{Arc consistency}\\
+Simplest form of propagation makes each arc consistent.\\
+$X \rightarrow  Y$ is consistent if for every value x of X there is some allowed y \\
