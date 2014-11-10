@@ -19,7 +19,18 @@
 \BOOKMARK [0][-]{chapter.3}{Presenting Information}{}% 19
 \BOOKMARK [1][-]{section.3.1}{Table}{chapter.3}% 20
 \BOOKMARK [1][-]{section.3.2}{Figure}{chapter.3}% 21
-\BOOKMARK [0][-]{chapter*.2}{Bibliography}{}% 22
-\BOOKMARK [1][-]{section*.3}{Books}{chapter*.2}% 23
-\BOOKMARK [1][-]{section*.4}{Articles}{chapter*.2}% 24
-\BOOKMARK [0][-]{section*.5}{Index}{}% 25
+\BOOKMARK [0][-]{chapter.4}{Chapter 7:Case-Based Reasoning}{}% 22
+\BOOKMARK [1][-]{section.4.1}{Case-Based Reasoning}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.2}{Case-Based Reasoning System and 4R Cycle}{chapter.4}% 24
+\BOOKMARK [2][-]{subsection.4.2.1}{4R Cycle}{section.4.2}% 25
+\BOOKMARK [1][-]{section.4.3}{Design Case-Based Reasoning System}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.3.1}{Case Representation}{section.4.3}% 27
+\BOOKMARK [2][-]{subsection.4.3.2}{Design Case database}{section.4.3}% 28
+\BOOKMARK [2][-]{subsection.4.3.3}{Retrieve: index}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.4}{Retrieval: Ranking}{section.4.3}% 30
+\BOOKMARK [2][-]{subsection.4.3.5}{Reuse/Revive}{section.4.3}% 31
+\BOOKMARK [2][-]{subsection.4.3.6}{Retain: Store new cases and stop reasoning}{section.4.3}% 32
+\BOOKMARK [0][-]{chapter*.4}{Bibliography}{}% 33
+\BOOKMARK [1][-]{section*.5}{Books}{chapter*.4}% 34
+\BOOKMARK [1][-]{section*.6}{Articles}{chapter*.4}% 35
+\BOOKMARK [0][-]{section*.7}{Index}{}% 36
