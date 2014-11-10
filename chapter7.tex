@@ -64,3 +64,44 @@ Domains that CBR Works well:
 \item Compare similarity of each feature
 \item Similarity by weighted average
 \end{itemize}
+
+\section{Design Case-Based Reasoning System}
+\subsection{Case Representation}
+A case in diagnosis represents one diagnostic situation, include two parts:\\
+\begin{enumerate}
+\item Features
+\begin{enumerate}
+\item symptoms
+\item failure
+\item feature values
+\item repair strategies
+\end{enumerate}
+\end{enumerate}
+
+\subsubsection{Match Case}
+\begin{itemize}
+\item Compare features and their value between the stored case and new problem
+\item Nearest-neighbour matching algorithm
+\end{itemize}
+
+\subsection{Retrieval: Ranking}
+\begin{itemize}
+\item Possibly more than one case is matched
+\item Among matched cases, ranking may be used to choose a case to reuse
+\item If a matched case cannot provide the solution to the problem,. lower rank cases may be taken as the candidate for the problem
+\item Ranking value will depend on observation time and cost
+\begin{itemize}
+\item Higher the rank $\longrightarrow$ better solution(cheaper, faster, etc.)
+\item Ranking Observation cost, observation time and case frequency need to be considered
+\end{itemize}
+\end{itemize}
+
+\subsection{Reuse/Revive}
+\begin{itemize}
+Adapt/repair old solutions
+\end{itemize}
+
+\subsection{Retain: Store new cases and stop reasoning}
+\begin{itemize}
+
+\end{itemize}
