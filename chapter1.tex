@@ -44,8 +44,11 @@ Continuous variables
 \item CSPs with preference are often with optimization search algorithms constraints optimization problems 
 \end{itemize}
 
-\textbf{Node Consistency}\\
+
+\subsection{Node Consistency}
 If a node is node-consistent if all the value’s domain satisfy the variable’s unary constraints.\\[3ex]
+
+\includegraphics[scale=1]{chap1_pics/austaliaareas.png} 
 
 Example:\\
 D = {Red, Green, Blue}\\
@@ -154,11 +157,11 @@ Given a variable, choose the least constraining value: the one that rules out th
 Combining these heuristics makes 1000 queens feasible.\\
 
 
-\textbf{Forward checking}\\
+\subsection{Forward checking}
 Idea: Keep track if remaining legal values for unassigned variables.\\
 Terminates search when any variable has no legal values.\\
 
-\includegraphics[scale=1]{chap1_pics/australiamap.jpeg}\\
+\includegraphics[scale=1]{chap1_pics/australiamap.png}\\
 \includegraphics[scale=1]{chap1_pics/backtrack4.jpeg}
 
 \textbf{Constraint propagation}\\
@@ -168,6 +171,84 @@ Forward checking propagates information from assigned to unassigned variables, b
 NT and SA cannot both be blue!\\
 Constraint propagation repeatedly enforces constraints locally.\\
 
-\textbf{Arc consistency}\\
+\subsection{Arc consistency}
 Simplest form of propagation makes each arc consistent.\\
-$X \rightarrow  Y$ is consistent if for every value x of X there is some allowed y \\
+$X \rightarrow  Y$ is consistent if for every value x of X there is some allowed y \\[3ex]
+If X looses a value, neighbours needs to be rechecked.\\
+\includegraphics[scale=1]{chap1_pics/arcconsistency1.png} 
+
+Arc consistency detects failure earlier than \textit{forward checking}.
+Can be run as a predecessor or after each assignment.
+
+\section{Structure}
+\includegraphics[scale=1]{chap1_pics/australiamap.png}\\
+Tasmania and mainland Australia are independent subsections which can be identified as connected components of constraint graph. \\
+
+\begin{itemize}
+\item Suppose each subproblem has a \textit{c} variable out of \textit{n} total
+\item Worst-case solution cost is $ n/c * d^c$ liniar in \textit{n}
+\item E.g. $n = 80, d = 2, c =20$
+\begin{itemize}
+\item $2^{80}$ = 4 billion years at 10 million nodes/sec
+\item $2 * 2^{20} = 0.4$ seconds at 10 million nodes/sec
+\end{itemize}
+\end{itemize} 
+
+\subsection{Tree-structure CSPs}
+\includegraphics[scale=1]{chap1_pics/treestructure.png}
+
+\begin{itemize}
+\item Theorem: if the constraitn graph has no loops, the CSP can be solved in $O(nd^2)$ time
+\item Compare to general CSPs, where worst-case time is $O(d^n)$
+\item This property also applies to logical and probabilistic reasoning: an important example of the relation between syntactic restrictions and the complexity of reasoning
+\end{itemize}
+
+\subsection{Algorithm for tree-structured CSPs}
+\begin{enumerate}
+\item Choose a variable as root, order variables from root to leaves such that every node's parent precedes it in the ordering
+\item For \textit{j} from \textit{n} down to 2, apply \textit{RemoveInconsistent}$(Parent(X_j),x_j)$
+\item For \textit{j} from 1 to \textit{n}, assign $X_j$ consistently with $Parent(X_j)$
+\end{enumerate}
+\includegraphics[scale=1]{chap1_pics/treestructurealgorithm.png} 
+
+\subsection{Nearly tree-structured CSPs}
+\begin{itemize}
+\item Conditioning: instantiate a variable, prune its neighbours domains
+\item Cutset conditioning: instantiate(in all ways) a set of variables such that the remaining constraint graph is a tree
+\item Cutset size $c \Rightarrow runtime O(d^c * (n-c)d^2)$, very fast for small \textit{c}
+\end{itemize}
+
+\includegraphics[scale=1]{chap1_pics/treestructuremap.png} 
+\label{treestructuremap}
+
+\begin{itemize}
+\item Choose a subset \textit{S} from \textit{VARIABLE[csp]} such that the constraint graph becomes a tree after removal of \textit{S}
+\item For each possible assignment to the variables in \textit{S} satisfies all constraint on S 
+\begin{itemize}
+\item remove from the domains of the remaining variables any values that are inconsistent with the assignment of \textit{S}
+\item If the remaining CSP has solution, then return it together the assignment to S
+\end{itemize}
+\end{itemize}
+
+\section{Local Search for CSPs}
+\begin{itemize}
+\item Local search, e.g. hill-climbing, simulated annealing for CSP
+\begin{itemize}
+\item typically start with a "complete" state, i.e. all variables assigned to values, but may violated constraints
+\item then search changes the value of one variable at each time for violated constraints
+\end{itemize}
+\item Variable selection: randomly select any conflicted variable
+\item Value selection by min-conflicts heuristics:
+\begin{itemize}
+\item choose value that violates the fewest constraints i.e. hillclimb with $h(n) = $total number of violated constraints
+\end{itemize}
+\end{itemize}
+
+\subsection{Min-Conflict Algorithms}
+\includegraphics[scale=1]{chap1_pics/minconflictalgoithm.png} 
+
+\begin{itemize}
+\item Given random initial state, can solve \textit{n-queens} in almost constant time for arbitrary \textit{n} with high probability (e.g. $n = 10 000 000$)
+\item The same to be true for any randomly-generated CSP \textit{except} in a narrow range of the ratio $R=\frac{number of constraints}{number of variables}$
+\end{itemize}
+\includegraphics[scale=1]{chap1_pics/minconfliggraph.png} 

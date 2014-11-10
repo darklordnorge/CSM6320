@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.9)  9 NOV 2014 22:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.9)  10 NOV 2014 14:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1586,7 +1586,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<Pictures/background.pdf, id=151, 584.1825pt x 835.12pt>
+<Pictures/background.pdf, id=107, 584.1825pt x 835.12pt>
 File: Pictures/background.pdf Graphic file (type pdf)
 
 <use Pictures/background.pdf>
@@ -1679,7 +1679,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
-[2] <Pictures/chapter_head_1.pdf, id=169, 597.432pt x 298.716pt>
+[2] <Pictures/chapter_head_1.pdf, id=125, 597.432pt x 298.716pt>
 File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
 
 <use Pictures/chapter_head_1.pdf>
@@ -1711,7 +1711,7 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
  [4]
 Chapter 1.
 \c@ttl@toc@default=\count360
-<Pictures/chapter_head_2.pdf, id=257, 3581.38pt x 1790.69pt>
+<Pictures/chapter_head_2.pdf, id=190, 3581.38pt x 1790.69pt>
 File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
 
 <use Pictures/chapter_head_2.pdf>
@@ -1738,212 +1738,239 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
 
  <./Pictures/chapter_head_2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+<chap1_pics/austaliaareas.png, id=232, 249.93375pt x 172.645pt>
+File: chap1_pics/austaliaareas.png Graphic file (type png)
+
+<use chap1_pics/austaliaareas.png>
+Package pdftex.def Info: chap1_pics/austaliaareas.png used on input line 51.
+(pdftex.def)             Requested size: 249.93314pt x 172.64456pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 62--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--64
-
- []
-
-
-<chap1_pics/1nAyMlelLl-LW-ECO-Akl5AsNAugdRshrNF4o7Q.png, id=290, 363.15675pt x 
-229.45724pt>
+<chap1_pics/1nAyMlelLl-LW-ECO-Akl5AsNAugdRshrNF4o7Q.png, id=233, 393.47pt x 258
+.9675pt>
 File: chap1_pics/1nAyMlelLl-LW-ECO-Akl5AsNAugdRshrNF4o7Q.png Graphic file (type
  png)
  <use chap1_pics/1nAyMlelLl-LW-ECO-Akl5AsNAugdRshrNF4o7Q.png>
 Package pdftex.def Info: chap1_pics/1nAyMlelLl-LW-ECO-Akl5AsNAugdRshrNF4o7Q.png
- used on input line 66.
-(pdftex.def)             Requested size: 363.15585pt x 229.45667pt.
+ used on input line 69.
+(pdftex.def)             Requested size: 393.46902pt x 258.96684pt.
 
-[6 <./chap1_pics/1nAyMlelLl-LW-ECO-Akl5AsNAugdRshrNF4o7Q.png>]
-<chap1_pics/patchconsistency.jpeg, id=297, 381.22424pt x 148.75575pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./chap1_pics/austaliaareas.png>]
+<chap1_pics/patchconsistency.jpeg, id=239, 381.22424pt x 148.75575pt>
 File: chap1_pics/patchconsistency.jpeg Graphic file (type jpg)
 
 <use chap1_pics/patchconsistency.jpeg>
-Package pdftex.def Info: chap1_pics/patchconsistency.jpeg used on input line 79
+Package pdftex.def Info: chap1_pics/patchconsistency.jpeg used on input line 82
 .
 (pdftex.def)             Requested size: 381.22331pt x 148.75537pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--87
+Underfull \hbox (badness 10000) in paragraph at lines 85--90
 
  []
 
-<chap1_pics/backtracking.jpeg, id=298, 299.31825pt x 216.20775pt>
+[7 <./chap1_pics/1nAyMlelLl-LW-ECO-Akl5AsNAugdRshrNF4o7Q.png> <./chap1_pics/pat
+chconsistency.jpeg>]
+<chap1_pics/backtracking.jpeg, id=251, 299.31825pt x 216.20775pt>
 File: chap1_pics/backtracking.jpeg Graphic file (type jpg)
 
 <use chap1_pics/backtracking.jpeg>
-Package pdftex.def Info: chap1_pics/backtracking.jpeg used on input line 113.
+Package pdftex.def Info: chap1_pics/backtracking.jpeg used on input line 116.
 (pdftex.def)             Requested size: 299.31752pt x 216.20721pt.
 
-Underfull \vbox (badness 8132) has occurred while \output is active []
-
- [7 <./chap1_pics/patchconsistency.jpeg>]
-<chap1_pics/backtrackcode.jpeg, id=309, 327.02174pt x 208.98074pt>
+<chap1_pics/backtrackcode.jpeg, id=252, 327.02174pt x 208.98074pt>
 File: chap1_pics/backtrackcode.jpeg Graphic file (type jpg)
 
 <use chap1_pics/backtrackcode.jpeg>
-Package pdftex.def Info: chap1_pics/backtrackcode.jpeg used on input line 130.
+Package pdftex.def Info: chap1_pics/backtrackcode.jpeg used on input line 133.
 (pdftex.def)             Requested size: 327.02094pt x 208.98022pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+Underfull \vbox (badness 5302) has occurred while \output is active []
+
+ [8 <./chap1_pics/backtracking.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
-[8 <./chap1_pics/backtracking.jpeg> <./chap1_pics/backtrackcode.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
 
  []
 
-<chap1_pics/backtrack2.jpeg, id=321, 248.72925pt x 55.407pt>
+<chap1_pics/backtrack2.jpeg, id=261, 248.72925pt x 55.407pt>
 File: chap1_pics/backtrack2.jpeg Graphic file (type jpg)
 
 <use chap1_pics/backtrack2.jpeg>
-Package pdftex.def Info: chap1_pics/backtrack2.jpeg used on input line 148.
+Package pdftex.def Info: chap1_pics/backtrack2.jpeg used on input line 151.
 (pdftex.def)             Requested size: 248.72864pt x 55.40685pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--152
-
- []
-
-<chap1_pics/backtrack3.jpeg, id=322, 349.90726pt x 92.7465pt>
-File: chap1_pics/backtrack3.jpeg Graphic file (type jpg)
-
-<use chap1_pics/backtrack3.jpeg>
-Package pdftex.def Info: chap1_pics/backtrack3.jpeg used on input line 153.
-(pdftex.def)             Requested size: 349.90639pt x 92.74628pt.
-
-Overfull \hbox (1.87624pt too wide) in paragraph at lines 153--155
-[][] \T1/ptm/m/n/10.95 (-20) Com-bin-ing
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 153--155
 
  []
 
+<chap1_pics/backtrack3.jpeg, id=262, 349.90726pt x 92.7465pt>
+File: chap1_pics/backtrack3.jpeg Graphic file (type jpg)
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--160
+<use chap1_pics/backtrack3.jpeg>
+Package pdftex.def Info: chap1_pics/backtrack3.jpeg used on input line 156.
+(pdftex.def)             Requested size: 349.90639pt x 92.74628pt.
+
+Overfull \hbox (1.87624pt too wide) in paragraph at lines 156--158
+[][] \T1/ptm/m/n/10.95 (-20) Com-bin-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
 
-<chap1_pics/australiamap.jpeg, id=323, 174.6525pt x 188.95593pt>
-File: chap1_pics/australiamap.jpeg Graphic file (type jpg)
 
-<use chap1_pics/australiamap.jpeg>
-Package pdftex.def Info: chap1_pics/australiamap.jpeg used on input line 161.
-(pdftex.def)             Requested size: 174.65207pt x 188.95546pt.
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
-<chap1_pics/backtrack4.jpeg, id=324, 351.11176pt x 166.82326pt>
+ []
+
+
+Underfull \vbox (badness 3989) has occurred while \output is active []
+
+ [9 <./chap1_pics/backtrackcode.jpeg> <./chap1_pics/backtrack2.jpeg> <./chap1_p
+ics/backtrack3.jpeg>] <chap1_pics/australiamap.png, id=271, 205.76875pt x 182.6
+825pt>
+File: chap1_pics/australiamap.png Graphic file (type png)
+
+<use chap1_pics/australiamap.png>
+Package pdftex.def Info: chap1_pics/australiamap.png used on input line 164.
+(pdftex.def)             Requested size: 205.76823pt x 182.68204pt.
+
+<chap1_pics/backtrack4.jpeg, id=272, 351.11176pt x 166.82326pt>
 File: chap1_pics/backtrack4.jpeg Graphic file (type jpg)
 
 <use chap1_pics/backtrack4.jpeg>
-Package pdftex.def Info: chap1_pics/backtrack4.jpeg used on input line 162.
+Package pdftex.def Info: chap1_pics/backtrack4.jpeg used on input line 165.
 (pdftex.def)             Requested size: 351.11089pt x 166.82285pt.
+File: chap1_pics/backtrack4.jpeg Graphic file (type jpg)
+ <use chap1_pics/backtrack4.jpeg>
+Package pdftex.def Info: chap1_pics/backtrack4.jpeg used on input line 169.
+(pdftex.def)             Requested size: 351.11089pt x 166.82285pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
+
+ []
+
+<chap1_pics/arcconsistency1.png, id=273, 467.7475pt x 171.64125pt>
+File: chap1_pics/arcconsistency1.png Graphic file (type png)
+
+<use chap1_pics/arcconsistency1.png>
+Package pdftex.def Info: chap1_pics/arcconsistency1.png used on input line 178.
+
+(pdftex.def)             Requested size: 467.74634pt x 171.64081pt.
+
+Overfull \hbox (52.3359pt too wide) in paragraph at lines 175--179
+[] 
+ []
+
+
+Underfull \vbox (badness 3792) has occurred while \output is active []
+
+ [10 <./chap1_pics/australiamap.png> <./chap1_pics/backtrack4.jpeg>]
+File: chap1_pics/australiamap.png Graphic file (type png)
+
+<use chap1_pics/australiamap.png>
+Package pdftex.def Info: chap1_pics/australiamap.png used on input line 184.
+(pdftex.def)             Requested size: 205.76823pt x 182.68204pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--186
+
+ []
+
+<chap1_pics/treestructure.png, id=278, 218.8175pt x 131.49126pt>
+File: chap1_pics/treestructure.png Graphic file (type png)
+
+<use chap1_pics/treestructure.png>
+Package pdftex.def Info: chap1_pics/treestructure.png used on input line 198.
+(pdftex.def)             Requested size: 218.81696pt x 131.49092pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9 <./chap1_pics/backtrack2.jpeg> <./chap1_pics/backtrack3.jpeg>]
-File: chap1_pics/backtrack4.jpeg Graphic file (type jpg)
+ [11 <./chap1_pics/arcconsistency1.png>]
+<chap1_pics/treestructurealgorithm.png, id=283, 256.96pt x 65.24374pt>
+File: chap1_pics/treestructurealgorithm.png Graphic file (type png)
 
-<use chap1_pics/backtrack4.jpeg>
-Package pdftex.def Info: chap1_pics/backtrack4.jpeg used on input line 166.
-(pdftex.def)             Requested size: 351.11089pt x 166.82285pt.
+<use chap1_pics/treestructurealgorithm.png>
+Package pdftex.def Info: chap1_pics/treestructurealgorithm.png used on input li
+ne 212.
+(pdftex.def)             Requested size: 256.95937pt x 65.24358pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--170
+<chap1_pics/treestructuremap.png, id=284, 333.245pt x 135.50626pt>
+File: chap1_pics/treestructuremap.png Graphic file (type png)
 
- []
+<use chap1_pics/treestructuremap.png>
+Package pdftex.def Info: chap1_pics/treestructuremap.png used on input line 221
+.
+(pdftex.def)             Requested size: 333.24417pt x 135.5059pt.
+ [12 <./chap1_pics/treestructure.png> <./chap1_pics/treestructurealgorithm.png>
+ <./chap1_pics/treestructuremap.png>]
+<chap1_pics/minconflictalgoithm.png, id=292, 385.44pt x 162.6075pt>
+File: chap1_pics/minconflictalgoithm.png Graphic file (type png)
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 171--135
+<use chap1_pics/minconflictalgoithm.png>
+Package pdftex.def Info: chap1_pics/minconflictalgoithm.png used on input line 
+248.
+(pdftex.def)             Requested size: 385.43906pt x 162.6071pt.
 
- []
+<chap1_pics/minconfliggraph.png, id=293, 298.11375pt x 168.63pt>
+File: chap1_pics/minconfliggraph.png Graphic file (type png)
 
+<use chap1_pics/minconfliggraph.png>
+Package pdftex.def Info: chap1_pics/minconfliggraph.png used on input line 254.
 
-Underfull \vbox (badness 5417) has occurred while \output is active []
-
- [10 <./chap1_pics/australiamap.jpeg> <./chap1_pics/backtrack4.jpeg>]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
- [11] [12
+(pdftex.def)             Requested size: 298.11302pt x 168.62958pt.
+) [13 <./chap1_pics/minconflictalgoithm.png> <./chap1_pics/minconfliggraph.png>
+] [14
 
 ]
 Chapter 2.
 File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
 <use Pictures/chapter_head_2.pdf>
-Package pdftex.def Info: Pictures/chapter_head_2.pdf used on input line 176.
+Package pdftex.def Info: Pictures/chapter_head_2.pdf used on input line 141.
 (pdftex.def)             Requested size: 597.50787pt x 298.75726pt.
- (./main.ptc)
-Package mdframed Info: mdframed works in twoside mode on input line 185.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 185.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 185.
-LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <10> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 185.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 185.
-Package mdframed Info: mdframed works in twoside mode on input line 196.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 196.
-Package mdframed Info: mdframed works in twoside mode on input line 206.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 206.
- [13]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 235.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 235.
-Package mdframed Info: mdframed works in twoside mode on input line 244.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 244.
-LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <6> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 279.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <6> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 279.
- [14]
-Package mdframed Info: mdframed works in twoside mode on input line 299.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 299.
- [15] [16
+ (./main.ptc) (./chapter2.tex) [15] [16
 
 ]
 Chapter 3.
 File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
 <use Pictures/chapter_head_1.pdf>
-Package pdftex.def Info: Pictures/chapter_head_1.pdf used on input line 327.
+Package pdftex.def Info: Pictures/chapter_head_1.pdf used on input line 152.
 (pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
  (./main.ptc)
-<Pictures/placeholder.jpg, id=437, 351.3125pt x 193.72375pt>
+<Pictures/placeholder.jpg, id=321, 351.3125pt x 193.72375pt>
 File: Pictures/placeholder.jpg Graphic file (type jpg)
 
 <use Pictures/placeholder.jpg>
-Package pdftex.def Info: Pictures/placeholder.jpg used on input line 350.
+Package pdftex.def Info: Pictures/placeholder.jpg used on input line 175.
 (pdftex.def)             Requested size: 175.6558pt x 96.86163pt.
  [17 <./Pictures/placeholder.jpg>] [18
 
@@ -1951,7 +1978,7 @@ Package pdftex.def Info: Pictures/placeholder.jpg used on input line 350.
 File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
 
 <use Pictures/chapter_head_1.pdf>
-Package pdftex.def Info: Pictures/chapter_head_1.pdf used on input line 358.
+Package pdftex.def Info: Pictures/chapter_head_1.pdf used on input line 183.
 (pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
  [19] [20
 
@@ -1967,102 +1994,60 @@ Overfull \hbox (2.20001pt too wide) in paragraph at lines 3--4
  []
 
 
-Overfull \hbox (2.20001pt too wide) in paragraph at lines 11--12
+Overfull \hbox (2.20001pt too wide) in paragraph at lines 9--10
 [][] 
  []
 
 
-Overfull \hbox (2.20001pt too wide) in paragraph at lines 17--18
+Overfull \hbox (2.20001pt too wide) in paragraph at lines 15--16
 [][] 
  []
 
 
-Overfull \hbox (2.20001pt too wide) in paragraph at lines 26--27
-[][] 
- []
-
-
-Overfull \hbox (2.20001pt too wide) in paragraph at lines 32--33
-[][] 
- []
-
-
-Overfull \hbox (2.20001pt too wide) in paragraph at lines 41--42
-[][] 
- []
-
-
-Overfull \hbox (2.20001pt too wide) in paragraph at lines 47--48
-[][] 
- []
-
-
-Overfull \hbox (2.20001pt too wide) in paragraph at lines 56--57
-[][] 
- []
-
-
-Overfull \hbox (2.20001pt too wide) in paragraph at lines 62--63
-[][] 
- []
-
-
-Overfull \hbox (2.20001pt too wide) in paragraph at lines 71--72
+Overfull \hbox (2.20001pt too wide) in paragraph at lines 21--22
 [][] 
  []
 
 [21
 
+
 ])
 \tf@ptc=\write8
 \openout8 = `main.ptc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 379.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 379.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DB09305E9E759ACECFA49715E1AE97C7;2190.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+(rerunfilecheck)             Checksum: 51A188822035AE96C0A2B1E804C2349B;1633.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30084 strings out of 493304
- 538702 string characters out of 6139871
- 1059100 words of memory out of 5000000
- 32699 multiletter control sequences out of 15000+600000
- 111450 words of font info for 215 fonts, out of 8000000 for 9000
+ 29923 strings out of 493304
+ 536647 string characters out of 6139871
+ 1056002 words of memory out of 5000000
+ 32576 multiletter control sequences out of 15000+600000
+ 78397 words of font info for 159 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 58i,15n,57p,10532b,2564s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,12n,55p,10532b,2564s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
-ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
-ls/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/avantgar/uagk8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (21 pages, 626426 bytes).
+ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmri8a.pfb>
+Output written on main.pdf (21 pages, 684668 bytes).
 PDF statistics:
- 563 PDF objects out of 1000 (max. 8388607)
- 437 compressed objects within 5 object streams
- 103 named destinations out of 1000 (max. 500000)
- 62825 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 401 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
+ 69 named destinations out of 1000 (max. 500000)
+ 42804 words of extra memory for PDF output out of 42996 (max. 10000000)
 
