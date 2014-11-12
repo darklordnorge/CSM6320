@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.9)  10 NOV 2014 22:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.9)  12 NOV 2014 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1589,7 +1589,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<Pictures/background.pdf, id=179, 584.1825pt x 835.12pt>
+<Pictures/background.pdf, id=183, 584.1825pt x 835.12pt>
 File: Pictures/background.pdf Graphic file (type pdf)
 
 <use Pictures/background.pdf>
@@ -1682,7 +1682,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-[2] <Pictures/chapter_head_1.pdf, id=197, 597.432pt x 298.716pt>
+[2] <Pictures/chapter_head_1.pdf, id=201, 597.432pt x 298.716pt>
 File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
 
 <use Pictures/chapter_head_1.pdf>
@@ -1714,7 +1714,7 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
  [4]
 Chapter 1.
 \c@ttl@toc@default=\count360
-<Pictures/chapter_head_2.pdf, id=299, 3581.38pt x 1790.69pt>
+<Pictures/chapter_head_2.pdf, id=305, 3581.38pt x 1790.69pt>
 File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
 
 <use Pictures/chapter_head_2.pdf>
@@ -1745,7 +1745,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-<chap1_pics/austaliaareas.png, id=340, 249.93375pt x 172.645pt>
+<chap1_pics/austaliaareas.png, id=346, 249.93375pt x 172.645pt>
 File: chap1_pics/austaliaareas.png Graphic file (type png)
 
 <use chap1_pics/austaliaareas.png>
@@ -1767,7 +1767,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--68
  []
 
 
-<chap1_pics/1nAyMlelLl-LW-ECO-Akl5AsNAugdRshrNF4o7Q.png, id=341, 393.47pt x 258
+<chap1_pics/1nAyMlelLl-LW-ECO-Akl5AsNAugdRshrNF4o7Q.png, id=347, 393.47pt x 258
 .9675pt>
 File: chap1_pics/1nAyMlelLl-LW-ECO-Akl5AsNAugdRshrNF4o7Q.png Graphic file (type
  png)
@@ -1779,7 +1779,7 @@ Package pdftex.def Info: chap1_pics/1nAyMlelLl-LW-ECO-Akl5AsNAugdRshrNF4o7Q.png
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./chap1_pics/austaliaareas.png>]
-<chap1_pics/patchconsistency.jpeg, id=347, 381.22424pt x 148.75575pt>
+<chap1_pics/patchconsistency.jpeg, id=353, 381.22424pt x 148.75575pt>
 File: chap1_pics/patchconsistency.jpeg Graphic file (type jpg)
 
 <use chap1_pics/patchconsistency.jpeg>
@@ -1798,14 +1798,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--91
 
 [7 <./chap1_pics/1nAyMlelLl-LW-ECO-Akl5AsNAugdRshrNF4o7Q.png> <./chap1_pics/pat
 chconsistency.jpeg>]
-<chap1_pics/backtracking.jpeg, id=359, 299.31825pt x 216.20775pt>
+<chap1_pics/backtracking.jpeg, id=365, 299.31825pt x 216.20775pt>
 File: chap1_pics/backtracking.jpeg Graphic file (type jpg)
 
 <use chap1_pics/backtracking.jpeg>
 Package pdftex.def Info: chap1_pics/backtracking.jpeg used on input line 117.
 (pdftex.def)             Requested size: 299.31752pt x 216.20721pt.
 
-<chap1_pics/backtrackcode.jpeg, id=360, 327.02174pt x 208.98074pt>
+<chap1_pics/backtrackcode.jpeg, id=366, 327.02174pt x 208.98074pt>
 File: chap1_pics/backtrackcode.jpeg Graphic file (type jpg)
 
 <use chap1_pics/backtrackcode.jpeg>
@@ -1824,7 +1824,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
 
-<chap1_pics/backtrack2.jpeg, id=369, 248.72925pt x 55.407pt>
+<chap1_pics/backtrack2.jpeg, id=375, 248.72925pt x 55.407pt>
 File: chap1_pics/backtrack2.jpeg Graphic file (type jpg)
 
 <use chap1_pics/backtrack2.jpeg>
@@ -1835,7 +1835,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--156
 
  []
 
-<chap1_pics/backtrack3.jpeg, id=370, 349.90726pt x 92.7465pt>
+<chap1_pics/backtrack3.jpeg, id=376, 349.90726pt x 92.7465pt>
 File: chap1_pics/backtrack3.jpeg Graphic file (type jpg)
 
 <use chap1_pics/backtrack3.jpeg>
@@ -1860,7 +1860,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--164
 Underfull \vbox (badness 3989) has occurred while \output is active []
 
  [9 <./chap1_pics/backtrackcode.jpeg> <./chap1_pics/backtrack2.jpeg> <./chap1_p
-ics/backtrack3.jpeg>] <chap1_pics/australiamap.png, id=380, 205.76875pt x 182.6
+ics/backtrack3.jpeg>] <chap1_pics/australiamap.png, id=386, 205.76875pt x 182.6
 825pt>
 File: chap1_pics/australiamap.png Graphic file (type png)
 
@@ -1868,7 +1868,7 @@ File: chap1_pics/australiamap.png Graphic file (type png)
 Package pdftex.def Info: chap1_pics/australiamap.png used on input line 165.
 (pdftex.def)             Requested size: 205.76823pt x 182.68204pt.
 
-<chap1_pics/backtrack4.jpeg, id=381, 351.11176pt x 166.82326pt>
+<chap1_pics/backtrack4.jpeg, id=387, 351.11176pt x 166.82326pt>
 File: chap1_pics/backtrack4.jpeg Graphic file (type jpg)
 
 <use chap1_pics/backtrack4.jpeg>
@@ -1883,7 +1883,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--174
 
  []
 
-<chap1_pics/arcconsistency1.png, id=382, 467.7475pt x 171.64125pt>
+<chap1_pics/arcconsistency1.png, id=388, 467.7475pt x 171.64125pt>
 File: chap1_pics/arcconsistency1.png Graphic file (type png)
 
 <use chap1_pics/arcconsistency1.png>
@@ -1909,7 +1909,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--187
 
  []
 
-<chap1_pics/treestructure.png, id=387, 218.8175pt x 131.49126pt>
+<chap1_pics/treestructure.png, id=393, 218.8175pt x 131.49126pt>
 File: chap1_pics/treestructure.png Graphic file (type png)
 
 <use chap1_pics/treestructure.png>
@@ -1919,7 +1919,7 @@ Package pdftex.def Info: chap1_pics/treestructure.png used on input line 199.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11 <./chap1_pics/arcconsistency1.png>]
-<chap1_pics/treestructurealgorithm.png, id=392, 256.96pt x 65.24374pt>
+<chap1_pics/treestructurealgorithm.png, id=398, 256.96pt x 65.24374pt>
 File: chap1_pics/treestructurealgorithm.png Graphic file (type png)
 
 <use chap1_pics/treestructurealgorithm.png>
@@ -1927,7 +1927,7 @@ Package pdftex.def Info: chap1_pics/treestructurealgorithm.png used on input li
 ne 213.
 (pdftex.def)             Requested size: 256.95937pt x 65.24358pt.
 
-<chap1_pics/treestructuremap.png, id=393, 333.245pt x 135.50626pt>
+<chap1_pics/treestructuremap.png, id=399, 333.245pt x 135.50626pt>
 File: chap1_pics/treestructuremap.png Graphic file (type png)
 
 <use chap1_pics/treestructuremap.png>
@@ -1936,7 +1936,7 @@ Package pdftex.def Info: chap1_pics/treestructuremap.png used on input line 222
 (pdftex.def)             Requested size: 333.24417pt x 135.5059pt.
  [12 <./chap1_pics/treestructure.png> <./chap1_pics/treestructurealgorithm.png>
  <./chap1_pics/treestructuremap.png>]
-<chap1_pics/minconflictalgoithm.png, id=401, 385.44pt x 162.6075pt>
+<chap1_pics/minconflictalgoithm.png, id=407, 385.44pt x 162.6075pt>
 File: chap1_pics/minconflictalgoithm.png Graphic file (type png)
 
 <use chap1_pics/minconflictalgoithm.png>
@@ -1944,7 +1944,7 @@ Package pdftex.def Info: chap1_pics/minconflictalgoithm.png used on input line
 249.
 (pdftex.def)             Requested size: 385.43906pt x 162.6071pt.
 
-<chap1_pics/minconfliggraph.png, id=402, 298.11375pt x 168.63pt>
+<chap1_pics/minconfliggraph.png, id=408, 298.11375pt x 168.63pt>
 File: chap1_pics/minconfliggraph.png Graphic file (type png)
 
 <use chap1_pics/minconfliggraph.png>
@@ -2055,22 +2055,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
-) [17] [18
-
-]
+[17]) [18]
 Chapter 3.
 File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
 <use Pictures/chapter_head_1.pdf>
 Package pdftex.def Info: Pictures/chapter_head_1.pdf used on input line 150.
 (pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
  (./main.ptc)
-<Pictures/placeholder.jpg, id=453, 351.3125pt x 193.72375pt>
+<Pictures/placeholder.jpg, id=463, 351.3125pt x 193.72375pt>
 File: Pictures/placeholder.jpg Graphic file (type jpg)
 
 <use Pictures/placeholder.jpg>
 Package pdftex.def Info: Pictures/placeholder.jpg used on input line 173.
 (pdftex.def)             Requested size: 175.6558pt x 96.86163pt.
- [19 <./Pictures/placeholder.jpg>] [20
+ [19
+
+ <./Pictures/placeholder.jpg>] [20
 
 ]
 Chapter 4.
@@ -2079,7 +2079,7 @@ File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
 Package pdftex.def Info: Pictures/chapter_head_1.pdf used on input line 182.
 (pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
  (./main.ptc) (./chapter7.tex [21]
-<chap7_pics/case_base_sys.png, id=495, 451.6875pt x 247.92625pt>
+<chap7_pics/case_base_sys.png, id=505, 451.6875pt x 247.92625pt>
 File: chap7_pics/case_base_sys.png Graphic file (type png)
 
 <use chap7_pics/case_base_sys.png>
@@ -2090,7 +2090,7 @@ Overfull \hbox (36.27596pt too wide) in paragraph at lines 55--56
 [][] 
  []
 
-<chap7_pics/case-base-4rcycle.png, id=496, 488.82625pt x 247.92625pt>
+<chap7_pics/case-base-4rcycle.png, id=506, 488.82625pt x 247.92625pt>
 File: chap7_pics/case-base-4rcycle.png Graphic file (type png)
 
 <use chap7_pics/case-base-4rcycle.png>
@@ -2155,17 +2155,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D0A74F7B95D4028AC6657CE73ACC13C5;2956.
+(rerunfilecheck)             Checksum: 5CB80ED077F9CF24A30DFD04270E41A2;3033.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29913 strings out of 493304
- 536064 string characters out of 6139871
+ 29921 strings out of 493304
+ 536163 string characters out of 6139871
  1057297 words of memory out of 5000000
- 32494 multiletter control sequences out of 15000+600000
- 84987 words of font info for 177 fonts, out of 8000000 for 9000
+ 32495 multiletter control sequences out of 15000+600000
+ 85233 words of font info for 180 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  58i,12n,55p,10532b,2564s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
@@ -2179,10 +2179,10 @@ xmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (27 pages, 742533 bytes).
+Output written on main.pdf (27 pages, 743933 bytes).
 PDF statistics:
- 605 PDF objects out of 1000 (max. 8388607)
- 455 compressed objects within 5 object streams
- 107 named destinations out of 1000 (max. 500000)
- 45518 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 617 PDF objects out of 1000 (max. 8388607)
+ 465 compressed objects within 5 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 45526 words of extra memory for PDF output out of 51595 (max. 10000000)
 

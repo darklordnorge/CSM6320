@@ -23,21 +23,22 @@
 \BOOKMARK [2][-]{subsection.2.2.3}{Probability Distribution}{section.2.2}% 23
 \BOOKMARK [2][-]{subsection.2.2.4}{Prior probability}{section.2.2}% 24
 \BOOKMARK [2][-]{subsection.2.2.5}{Joint Probability distribution}{section.2.2}% 25
-\BOOKMARK [0][-]{chapter.3}{Presenting Information}{}% 26
-\BOOKMARK [1][-]{section.3.1}{Table}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.2}{Figure}{chapter.3}% 28
-\BOOKMARK [0][-]{chapter.4}{Chapter 7:Case-Based Reasoning}{}% 29
-\BOOKMARK [1][-]{section.4.1}{Case-Based Reasoning}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.2}{Case-Based Reasoning System and 4R Cycle}{chapter.4}% 31
-\BOOKMARK [2][-]{subsection.4.2.1}{4R Cycle}{section.4.2}% 32
-\BOOKMARK [1][-]{section.4.3}{Design Case-Based Reasoning System}{chapter.4}% 33
-\BOOKMARK [2][-]{subsection.4.3.1}{Case Representation}{section.4.3}% 34
-\BOOKMARK [2][-]{subsection.4.3.2}{Design Case database}{section.4.3}% 35
-\BOOKMARK [2][-]{subsection.4.3.3}{Retrieve: index}{section.4.3}% 36
-\BOOKMARK [2][-]{subsection.4.3.4}{Retrieval: Ranking}{section.4.3}% 37
-\BOOKMARK [2][-]{subsection.4.3.5}{Reuse/Revive}{section.4.3}% 38
-\BOOKMARK [2][-]{subsection.4.3.6}{Retain: Store new cases and stop reasoning}{section.4.3}% 39
-\BOOKMARK [0][-]{chapter*.5}{Bibliography}{}% 40
-\BOOKMARK [1][-]{section*.6}{Books}{chapter*.5}% 41
-\BOOKMARK [1][-]{section*.7}{Articles}{chapter*.5}% 42
-\BOOKMARK [0][-]{section*.8}{Index}{}% 43
+\BOOKMARK [2][-]{subsection.2.2.6}{Conditional probability}{section.2.2}% 26
+\BOOKMARK [0][-]{chapter.3}{Presenting Information}{}% 27
+\BOOKMARK [1][-]{section.3.1}{Table}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.2}{Figure}{chapter.3}% 29
+\BOOKMARK [0][-]{chapter.4}{Chapter 7:Case-Based Reasoning}{}% 30
+\BOOKMARK [1][-]{section.4.1}{Case-Based Reasoning}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.2}{Case-Based Reasoning System and 4R Cycle}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.2.1}{4R Cycle}{section.4.2}% 33
+\BOOKMARK [1][-]{section.4.3}{Design Case-Based Reasoning System}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.3.1}{Case Representation}{section.4.3}% 35
+\BOOKMARK [2][-]{subsection.4.3.2}{Design Case database}{section.4.3}% 36
+\BOOKMARK [2][-]{subsection.4.3.3}{Retrieve: index}{section.4.3}% 37
+\BOOKMARK [2][-]{subsection.4.3.4}{Retrieval: Ranking}{section.4.3}% 38
+\BOOKMARK [2][-]{subsection.4.3.5}{Reuse/Revive}{section.4.3}% 39
+\BOOKMARK [2][-]{subsection.4.3.6}{Retain: Store new cases and stop reasoning}{section.4.3}% 40
+\BOOKMARK [0][-]{chapter*.5}{Bibliography}{}% 41
+\BOOKMARK [1][-]{section*.6}{Books}{chapter*.5}% 42
+\BOOKMARK [1][-]{section*.7}{Articles}{chapter*.5}% 43
+\BOOKMARK [0][-]{section*.8}{Index}{}% 44

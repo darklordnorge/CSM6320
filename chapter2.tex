@@ -154,3 +154,27 @@ Joint Probability distribution for a set of r.v.s gives the probability of every
  \bottomrule
 \end{tabular}
 \end{table}
+
+\subsection{Conditional probability}
+Conditional or posterior probabilities: \\
+given some information, sometimes called evidence, the probability of an event happening under the evidence.
+
+\begin{itemize}
+\item If a patient is observed to have toothache and no other information is yet available, then the probability of having cavity is 0.8
+\item P(cavity|tootache) = 0.8
+\end{itemize}
+
+\begin{equation}
+Tootache = true \Rightarrow P(cavity|tootache) = 0.8
+\end{equation}
+
+
+If we know more facts e.g. cavity is also given, then we have:\\
+$P(cavity|tootache, cavity) = 1$
+The less specific belief \textit{remains valid} after more evidence arrives, but is not always \textit{useful}. New evidence may be irrelevant, allowing simplification, e.g.:\\
+\begin{equation}
+P(cavity|tootache, dice = 1) = P(cavity|tootache) = 0.8
+\end{equation}
+
+
+This kind of inference, sanctioned by domain knowledge, is crucial.
