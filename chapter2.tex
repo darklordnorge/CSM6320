@@ -178,3 +178,38 @@ P(cavity|tootache, dice = 1) = P(cavity|tootache) = 0.8
 
 
 This kind of inference, sanctioned by domain knowledge, is crucial.
+
+\begin{theorem}[Definition of conditional probability]
+\begin{align}
+P(a|b) = \frac{P(a \cap b)}{P(b)} if P(b) \neq 0
+\end{align}
+\end{theorem}
+
+When the example used so far is applied to this theorem we will get this:\\
+\begin{equation}
+P(cavity|tootache) = \frac{P(cavity, foothache}{P(tootache)}
+\end{equation}
+
+If the product rule is applied, it gives an alternative formulation:\\
+\begin{equation}
+P(a \cap b) = P(a|b)P(b) = P(b|a)P(a)
+\end{equation}
+
+A general version holds for whole distributions, e.g.:\\
+\begin{equation}
+P(weather, cavity) = P(weather|cavity)P(cavity)
+\end{equation}
+
+\subsection{Chain rule}
+Chain rule is derived by successive application of product rule:
+
+\begin{table}
+\centering
+\begin{tabular}{l l}
+ & $P(X_1, \dots , X_n)$\\
+= & $P(X_1, \dots , X_{n-1})P(X_n | X_1, \dots , X_{n-1}$\\
+= & $P(X_1, \dots , X_{n-2})P(X_{n-1}|X_1, \dots, X_{n-2})P(X_n|X_1, \dots , X_{n-1})$\\
+= & \dots \\
+= & $\prod_{i = 1}^n P(X_i|X_1, \dots , X_{i-1})$ 
+\end{tabular}
+\end{table}
