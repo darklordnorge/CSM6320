@@ -15,25 +15,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}Path consistency}{7}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Backtracking}{8}{section.1.5}
+\contentsline {section}{\numberline {1.5}Backtracking}{9}{section.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.1}Improving backtracking efficiency}{9}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.1}Improving backtracking efficiency}{10}{subsection.1.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.5.2}Forward checking}{10}{subsection.1.5.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.5.3}Arc consistency}{11}{subsection.1.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.6}Structure}{11}{section.1.6}
+\contentsline {section}{\numberline {1.6}Structure}{12}{section.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6.1}Tree-structure CSPs}{12}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.1}Tree-structure CSPs}{13}{subsection.1.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6.2}Algorithm for tree-structured CSPs}{12}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.2}Algorithm for tree-structured CSPs}{13}{subsection.1.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6.3}Nearly tree-structured CSPs}{12}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1.6.3}Nearly tree-structured CSPs}{13}{subsection.1.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.7}Local Search for CSPs}{13}{section.1.7}
+\contentsline {section}{\numberline {1.7}Local Search for CSPs}{14}{section.1.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.7.1}Min-Conflict Algorithms}{13}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.1}Min-Conflict Algorithms}{14}{subsection.1.7.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Chapter 2:Uncertainty}{15}{chapter.2}
 \ttl@stoptoc {default@1}
@@ -61,47 +61,49 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.7}Chain rule}{18}{subsection.2.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Presenting Information}{19}{chapter.3}
+\contentsline {subsection}{\numberline {2.2.8}Probability for continuous variables}{18}{subsection.2.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Presenting Information}{21}{chapter.3}
 \ttl@stoptoc {default@2}
 \ttl@starttoc {default@3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Table}{19}{section.3.1}
+\contentsline {section}{\numberline {3.1}Table}{21}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Figure}{19}{section.3.2}
+\contentsline {section}{\numberline {3.2}Figure}{21}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Chapter 7:Case-Based Reasoning}{21}{chapter.4}
+\contentsline {chapter}{\numberline {4}Chapter 7:Case-Based Reasoning}{23}{chapter.4}
 \ttl@stoptoc {default@3}
 \ttl@starttoc {default@4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Case-Based Reasoning}{21}{section.4.1}
+\contentsline {section}{\numberline {4.1}Case-Based Reasoning}{23}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Case-Based Reasoning System and 4R Cycle}{22}{section.4.2}
+\contentsline {section}{\numberline {4.2}Case-Based Reasoning System and 4R Cycle}{24}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}4R Cycle}{22}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}4R Cycle}{24}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{New Problem vs Old Case}{22}{section*.3}
+\contentsline {subsubsection}{New Problem vs Old Case}{24}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Design Case-Based Reasoning System}{23}{section.4.3}
+\contentsline {section}{\numberline {4.3}Design Case-Based Reasoning System}{25}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Case Representation}{23}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Case Representation}{25}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Design Case database}{23}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Design Case database}{25}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Retrieve: index}{23}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Retrieve: index}{25}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Match Case}{24}{section*.4}
+\contentsline {subsubsection}{Match Case}{26}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Retrieval: Ranking}{24}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.4}Retrieval: Ranking}{26}{subsection.4.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.5}Reuse/Revive}{24}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.5}Reuse/Revive}{26}{subsection.4.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.6}Retain: Store new cases and stop reasoning}{24}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.6}Retain: Store new cases and stop reasoning}{26}{subsection.4.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{25}{chapter*.5}
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{27}{chapter*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Books}{25}{section*.6}
+\contentsline {section}{Books}{27}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Articles}{25}{section*.7}
+\contentsline {section}{Articles}{27}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Index}}{27}{section*.8}
+\contentsline {chapter}{\leavevmode {\color {ocre}Index}}{29}{section*.8}
 \contentsfinish 

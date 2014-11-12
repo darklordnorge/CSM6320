@@ -213,3 +213,34 @@ Chain rule is derived by successive application of product rule:
 = & $\prod_{i = 1}^n P(X_i|X_1, \dots , X_{i-1})$ 
 \end{tabular}
 \end{table}
+
+\subsection{Probability for continuous variables}
+Where X is a real r.V., express distribution as a parametrized function of value, as shown in the next theorem:\\
+\begin{theorem}[Probability density function D(x)]
+\begin{align}
+P(a < X < b) = \int_a^b D(x)dx
+\end{align}
+\end{theorem}
+
+Let X be a random variable a represent a student's age \textit{x} in the university.\\
+Suppose that:\\
+
+\begin{table}
+\centering
+\begin{tabular}{l l l}
+$D(x = x)$ & = & $U[18. 26](x)$ \\
+ & = & uniform density between [19, 26]
+\end{tabular}
+\end{table}
+
+D(X = 20.5) = 0.125 really means:\\
+\begin{equation}\label{prop_density_func}
+lim_{dx \rightarrow 0}P(20.5 \leq X \leq 20.5 + dx) = 0.125
+\end{equation}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{chap2_pics/prop_density_function.png} 
+\caption{Probability density function for equation: \ref{prop_density_func}}
+\end{figure}
+
