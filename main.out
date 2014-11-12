@@ -26,21 +26,25 @@
 \BOOKMARK [2][-]{subsection.2.2.6}{Conditional probability}{section.2.2}% 26
 \BOOKMARK [2][-]{subsection.2.2.7}{Chain rule}{section.2.2}% 27
 \BOOKMARK [2][-]{subsection.2.2.8}{Probability for continuous variables}{section.2.2}% 28
-\BOOKMARK [0][-]{chapter.3}{Presenting Information}{}% 29
-\BOOKMARK [1][-]{section.3.1}{Table}{chapter.3}% 30
-\BOOKMARK [1][-]{section.3.2}{Figure}{chapter.3}% 31
-\BOOKMARK [0][-]{chapter.4}{Chapter 7:Case-Based Reasoning}{}% 32
-\BOOKMARK [1][-]{section.4.1}{Case-Based Reasoning}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.2}{Case-Based Reasoning System and 4R Cycle}{chapter.4}% 34
-\BOOKMARK [2][-]{subsection.4.2.1}{4R Cycle}{section.4.2}% 35
-\BOOKMARK [1][-]{section.4.3}{Design Case-Based Reasoning System}{chapter.4}% 36
-\BOOKMARK [2][-]{subsection.4.3.1}{Case Representation}{section.4.3}% 37
-\BOOKMARK [2][-]{subsection.4.3.2}{Design Case database}{section.4.3}% 38
-\BOOKMARK [2][-]{subsection.4.3.3}{Retrieve: index}{section.4.3}% 39
-\BOOKMARK [2][-]{subsection.4.3.4}{Retrieval: Ranking}{section.4.3}% 40
-\BOOKMARK [2][-]{subsection.4.3.5}{Reuse/Revive}{section.4.3}% 41
-\BOOKMARK [2][-]{subsection.4.3.6}{Retain: Store new cases and stop reasoning}{section.4.3}% 42
-\BOOKMARK [0][-]{chapter*.5}{Bibliography}{}% 43
-\BOOKMARK [1][-]{section*.6}{Books}{chapter*.5}% 44
-\BOOKMARK [1][-]{section*.7}{Articles}{chapter*.5}% 45
-\BOOKMARK [0][-]{section*.8}{Index}{}% 46
+\BOOKMARK [2][-]{subsection.2.2.9}{Gaussian density}{section.2.2}% 29
+\BOOKMARK [1][-]{section.2.3}{Proposition}{chapter.2}% 30
+\BOOKMARK [2][-]{subsection.2.3.1}{Inclusion - exclusion Principle}{section.2.3}% 31
+\BOOKMARK [2][-]{subsection.2.3.2}{Syntax for propositions}{section.2.3}% 32
+\BOOKMARK [0][-]{chapter.3}{Presenting Information}{}% 33
+\BOOKMARK [1][-]{section.3.1}{Table}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.2}{Figure}{chapter.3}% 35
+\BOOKMARK [0][-]{chapter.4}{Chapter 7:Case-Based Reasoning}{}% 36
+\BOOKMARK [1][-]{section.4.1}{Case-Based Reasoning}{chapter.4}% 37
+\BOOKMARK [1][-]{section.4.2}{Case-Based Reasoning System and 4R Cycle}{chapter.4}% 38
+\BOOKMARK [2][-]{subsection.4.2.1}{4R Cycle}{section.4.2}% 39
+\BOOKMARK [1][-]{section.4.3}{Design Case-Based Reasoning System}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.3.1}{Case Representation}{section.4.3}% 41
+\BOOKMARK [2][-]{subsection.4.3.2}{Design Case database}{section.4.3}% 42
+\BOOKMARK [2][-]{subsection.4.3.3}{Retrieve: index}{section.4.3}% 43
+\BOOKMARK [2][-]{subsection.4.3.4}{Retrieval: Ranking}{section.4.3}% 44
+\BOOKMARK [2][-]{subsection.4.3.5}{Reuse/Revive}{section.4.3}% 45
+\BOOKMARK [2][-]{subsection.4.3.6}{Retain: Store new cases and stop reasoning}{section.4.3}% 46
+\BOOKMARK [0][-]{chapter*.5}{Bibliography}{}% 47
+\BOOKMARK [1][-]{section*.6}{Books}{chapter*.5}% 48
+\BOOKMARK [1][-]{section*.7}{Articles}{chapter*.5}% 49
+\BOOKMARK [0][-]{section*.8}{Index}{}% 50

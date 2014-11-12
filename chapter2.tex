@@ -244,3 +244,82 @@ lim_{dx \rightarrow 0}P(20.5 \leq X \leq 20.5 + dx) = 0.125
 \caption{Probability density function for equation: \ref{prop_density_func}}
 \end{figure}
 
+\subsection{Gaussian density}
+\begin{theorem}[Gaussian density function]
+Is a widely used density function
+\begin{align}
+D(X = x) = \frac{1}{\sqrt{2 \pi \sigma}}e^{-(x-\mu )^2/2\sigma^2}
+\end{align}
+\end{theorem}
+
+When $\mu = 0$ the functions looks like this:\\
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{chap2_pics/gausian_density_func.png} 
+\end{figure}
+
+Probability in $X \in (a,b)$ is calculated by using the \textit{probability density function} shown in equation: \ref{prop_density_func}.
+
+\section{Proposition}
+A proposition can be seen as an event(a set of sample points), where the following proposition is true:\\
+\textit{A is "dice roll is less than 4"}\\
+
+\begin{equation}
+P(A) = \sum_{\omega \in A} P(\omega)
+\end{equation}
+
+Given Boolean random variables A and B:
+\begin{itemize}
+\item event $a$ = the set of sample points where $A(\omega)$ = true
+\item event $\neg a$ = the set of sample points where $A(\omega)$ = false
+\item event $a \cap b$ = points where $A(\omega)$ and $B(\omega)$ = true
+\end{itemize}
+
+Often in AI applications, the sample points are defined by the values of a set of random variables, i.e., the sample space is the Cartesian product of the ranges of the variables.\\
+With Boolean variables, a sample points = propositional logic model.\\
+\begin{itemize}
+\item e.g. A = true, B = false, or a$\cap \neg$b
+\end{itemize}
+
+Proposition = disjunction of atomic events in which it is true.\\
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l}
+$(a \cup b)$ & = & $(\neg a \cap b) \cup (a \cap \neg b) \cup (a \cap b)$ \\
+$\Rightarrow P(a \cup b)$ & = & $P(\neg a \cap b) + P(a \cap \neg b) + P(a \cap b)$
+\end{tabular}
+\end{table}
+
+
+\subsection{Inclusion - exclusion Principle}
+
+\begin{figure}[h]\label{inclusion_exclusion_principle}
+\centering
+\includegraphics[width=0.6\textwidth]{chap2_pics/inclusion_exclusion.png} 
+\caption{Inclusion-Exclusion Principle}
+\end{figure}
+
+The definitions imply that certain logically related events must have related probabilities(see figure \ref{inclusion_exclusion_principle}).\\
+\begin{equation}
+P(a \cup b) = P(a) + P(b) - P(a \cap b)
+\end{equation}
+
+\subsection{Syntax for propositions}
+Propositional or Boolean random variables:\\
+\begin{itemize}
+\item e.g. Cavity(do I have a cavity?)
+\item Cavity = \textit{true} is a proposition, also written cavity 
+\end{itemize}
+Discrete random variables(finite or infinite):\\
+\begin{itemize}
+\item e.g., Weather is one of \textit{<sunny, rain, cloudy, snow>}
+\item Weather = \textit{rain} is a proposition
+\item Values must be exhaustive and mutually exclusive
+\end{itemize}
+Continuous random variables(bounded or unbounded):\\
+\begin{itemize}
+\item e.g., Temp = 21.6
+\item also allow, e.g. Temp < 22.0
+\end{itemize}
+
