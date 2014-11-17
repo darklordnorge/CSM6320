@@ -56,7 +56,33 @@
 \usepackage{microtype} % Slightly tweak font spacing for aesthetics
 \usepackage[utf8]{inputenc} % Required for including letters with accents
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+
+%Packages added by me: 
 \usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{listings}
+
+% defines how code will be shown
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+% still code
+\lstset{frame=tb,
+  language=C, %Java
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=3
+}
 
 % Bibliography
 \usepackage[style=alphabetic,sorting=nyt,sortcites=true,autopunct=true,babel=hyphen,hyperref=true,abbreviate=false,backref=true,backend=biber]{biblatex}
@@ -129,7 +155,6 @@ Representation and Reasoning for Intelligent Systems\par % Book title
 
 \chapter{Chapter 1:Constraint Satisfaction Problem}
 
-\section{Constraint Satisfaction Problem }\index{Constraint Satisfaction Problem }
 
 \input{chapter1}
 
@@ -139,8 +164,6 @@ Representation and Reasoning for Intelligent Systems\par % Book title
 %----------------------------------------------------------------------------------------
 
 \chapter{Chapter 2:Uncertainty}
-
-\section{Uncertainty}\index{Uncertainty}
 
 \input{chapter2}
 %----------------------------------------------------------------------------------------
@@ -182,8 +205,6 @@ Treatment 3 & 0.0009271 & 0.296 \\
 %----------------------------------------------------------------------------------------
 
 \chapter{Chapter 7:Case-Based Reasoning}
-
-\section{Case-Based Reasoning}\index{Case-Based Reasoning}
 
 \input{chapter7}
 

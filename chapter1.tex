@@ -1,3 +1,4 @@
+\section{Constraint Satisfaction Problem }\index{Constraint Satisfaction Problem }
 Constraint satisfaction problems(CSP) are mathematical problems defined as a set of objects whose state must satisfy a number of constraints or limitations. One example of a CSP is the game “Sudoku” \\[3ex]
 
 \section{Basic terms about CSP:}
@@ -48,7 +49,11 @@ Continuous variables
 \subsection{Node Consistency}
 If a node is node-consistent if all the value’s domain satisfy the variable’s unary constraints.\\[3ex]
 
-\includegraphics[scale=1]{chap1_pics/austaliaareas.png} 
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{chap1_pics/austaliaareas.png} 
+\end{figure}
+
 
 Example:\\
 D = {Red, Green, Blue}\\
@@ -65,8 +70,46 @@ Given two variables $X_i$ , $X_j$ with values in {0,1,2,...9} and constraints
 To make $X_i$ arc-consistent with respect to $X_j$, we reduce $X_i$’s domain to {0,1,2,3}.\\
 To make $X_j$ arc-consistent with respect to $X_i$, we reduce $X_j$’s domain to {0,1,4,9}.\\
 
+\newpage
 \section{Arc Consistency Algorithm(AC-3)}
-\includegraphics[scale=1]{chap1_pics/1nAyMlelLl-LW-ECO-Akl5AsNAugdRshrNF4o7Q.png} 
+\begin{lstlisting}
+ Input:
+   A set of variables X
+   A set of domains D(x) for each variable x in X. D(x) contains vx0, vx1... vxn, the possible values of x
+   A set of unary constraints R1(x) on variable x that must be satisfied
+   A set of binary constraints R2(x, y) on variables x and y that must be satisfied
+   
+ Output:
+   Arc consistent domains for each variable.
+ 
+ function ac3 (X, D, R1, R2)
+ // Initial domains are made consistent with unary constraints.
+     for each x in X
+         D(x) := { x in D(x) | R1(x) }   
+     // 'worklist' contains all arcs we wish to prove consistent or not.
+     worklist := { (x, y) | there exists a relation R2(x, y) or a relation R2(y, x) }
+ 
+     do
+         select any arc (x, y) from worklist
+         worklist := worklist - (x, y)
+         if arc-reduce (x, y) 
+             if D(x) is empty
+                 return failure
+             else
+                 worklist := worklist + { (z, x) | z != y and there exists a relation R2(x, z) or a relation R2(z, x) }
+     while worklist not empty
+ 
+ function arc-reduce (x, y)
+     bool change = false
+     for each vx in D(x)
+         find a value vy in D(y) such that vx and vy satisfy the constraint R2(x, y)
+         if there is no such vy {
+             D(x) := D(x) - vx
+             change := true
+         }
+     return change
+\end{lstlisting}
+
 \begin{enumerate}
 \item initially let a queue contain all arcs
 \item remove an arc $(X_i , X_j)$ from the queue and make the variable $X_i$ arc-consistent to $X_j$
@@ -79,7 +122,11 @@ To make $X_j$ arc-consistent with respect to $X_i$, we reduce $X_j$’s domain t
 \end{enumerate}
 
 \section{Path consistency}
-\includegraphics[scale=1]{chap1_pics/patchconsistency.jpeg} 
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{chap1_pics/patchconsistency.jpeg} 
+\end{figure}
+
 A two variable set ${X_i,X_j}$ is path consistency with respect to a third variable $X_m$ if for every assignment ${X_i = a, X_j = b}$ consistent with the constraints on${X_i, X_j}$, where is an assignment to $X_m$ ,that satisfies the constraints on${X_i , X_m}$ and ${X_m, X_j}$ \\[3ex]
 
 Example:\\
@@ -129,8 +176,10 @@ Backtracking search is a depth-first search for CSPs
 \end{itemize}
 Backtracking search is the basic uninformed algorithm for CSP.
 Can solve n-queens for $n\approx 25.$
+\begin{figure}[h]
+\includegraphics[width=1\textwidth]{chap1_pics/backtrackcode.png}
+\end{figure}
 
-\includegraphics[scale=1]{chap1_pics/backtrackcode.jpeg}
 \subsection{Improving backtracking efficiency}
 General-purpose methods can give huge gains in speed:\\
 \begin{enumerate}
@@ -245,7 +294,19 @@ Tasmania and mainland Australia are independent subsections which can be identif
 \end{itemize}
 
 \subsection{Min-Conflict Algorithms}
-\includegraphics[scale=1]{chap1_pics/minconflictalgoithm.png} 
+\begin{lstlisting}
+algorithm MIN-CONFLICTS
+     input: csp, a constraint satisfaction problem
+            max_steps,the number of steps allowed before giving up
+            current_state, an initial assignment of values for the variables in the csp
+     output: a solution set of values for the variable or failure
+   for i=1 to max_steps do
+       if current_state is a solution of csp then return current_state
+       var <-- a randomly chosen variable from the set of conflicted variables CONFLICTED[csp]
+       value <-- the value v for var that minimizes CONFLICTS(var,v,current,csp)
+       set var = value in current_state
+   return failure
+\end{lstlisting}
 
 \begin{itemize}
 \item Given random initial state, can solve \textit{n-queens} in almost constant time for arbitrary \textit{n} with high probability (e.g. $n = 10 000 000$)
