@@ -16,31 +16,6 @@
 \BOOKMARK [2][-]{subsection.1.7.1}{Min-Conflict Algorithms}{section.1.7}% 16
 \BOOKMARK [0][-]{chapter.2}{Chapter 2:Uncertainty}{}% 17
 \BOOKMARK [1][-]{section.2.1}{Uncertainty}{chapter.2}% 18
-<<<<<<< HEAD
-\BOOKMARK [0][-]{chapter.3}{Presenting Information}{}% 19
-\BOOKMARK [1][-]{section.3.1}{Table}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.2}{Figure}{chapter.3}% 21
-\BOOKMARK [0][-]{chapter.4}{Chapter 7:Case-Based Reasoning}{}% 22
-\BOOKMARK [1][-]{section.4.1}{Case-Based Reasoning}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.2}{Case Based Reasoning}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.3}{Case-Based Reasoning System and 4R Cycle}{chapter.4}% 25
-\BOOKMARK [2][-]{subsection.4.3.1}{4R Cycle}{section.4.3}% 26
-\BOOKMARK [1][-]{section.4.4}{Design Case-Based Reasoning System}{chapter.4}% 27
-\BOOKMARK [2][-]{subsection.4.4.1}{Case Representation}{section.4.4}% 28
-\BOOKMARK [2][-]{subsection.4.4.2}{Retrieval: Ranking}{section.4.4}% 29
-\BOOKMARK [2][-]{subsection.4.4.3}{Reuse/Revive}{section.4.4}% 30
-\BOOKMARK [2][-]{subsection.4.4.4}{Retain: Store new cases and stop reasoning}{section.4.4}% 31
-\BOOKMARK [0][-]{chapter.5}{Chapter 8: Rough Sets}{}% 32
-\BOOKMARK [1][-]{section.5.1}{Rough sets}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.2}{History}{chapter.5}% 34
-\BOOKMARK [1][-]{section.5.3}{Indivisibility }{chapter.5}% 35
-\BOOKMARK [1][-]{section.5.4}{Approximations}{chapter.5}% 36
-\BOOKMARK [2][-]{subsection.5.4.1}{Lower Approximations}{section.5.4}% 37
-\BOOKMARK [0][-]{chapter*.4}{Bibliography}{}% 38
-\BOOKMARK [1][-]{section*.5}{Books}{chapter*.4}% 39
-\BOOKMARK [1][-]{section*.6}{Articles}{chapter*.4}% 40
-\BOOKMARK [0][-]{section*.7}{Index}{}% 41
-=======
 \BOOKMARK [2][-]{subsection.2.1.1}{Probability for handling uncertainty}{section.2.1}% 19
 \BOOKMARK [1][-]{section.2.2}{Probability}{chapter.2}% 20
 \BOOKMARK [2][-]{subsection.2.2.1}{Event}{section.2.2}% 21
@@ -69,8 +44,15 @@
 \BOOKMARK [2][-]{subsection.4.3.4}{Retrieval: Ranking}{section.4.3}% 44
 \BOOKMARK [2][-]{subsection.4.3.5}{Reuse/Revive}{section.4.3}% 45
 \BOOKMARK [2][-]{subsection.4.3.6}{Retain: Store new cases and stop reasoning}{section.4.3}% 46
-\BOOKMARK [0][-]{chapter*.5}{Bibliography}{}% 47
-\BOOKMARK [1][-]{section*.6}{Books}{chapter*.5}% 48
-\BOOKMARK [1][-]{section*.7}{Articles}{chapter*.5}% 49
-\BOOKMARK [0][-]{section*.8}{Index}{}% 50
->>>>>>> 353267796def4aea94a3d8dfad13e9bdfbec6bf1
+\BOOKMARK [2][-]{subsection.4.3.7}{Retain: Store new cases and stop reasoning}{section.4.3}% 47
+\BOOKMARK [0][-]{chapter.5}{Chapter 8: Rough Sets}{}% 48
+\BOOKMARK [1][-]{section.5.1}{Rough sets}{chapter.5}% 49
+\BOOKMARK [1][-]{section.5.2}{History}{chapter.5}% 50
+\BOOKMARK [1][-]{section.5.3}{Indivisibility}{chapter.5}% 51
+\BOOKMARK [1][-]{section.5.4}{Approximations}{chapter.5}% 52
+\BOOKMARK [2][-]{subsection.5.4.1}{Lower Approximations}{section.5.4}% 53
+\BOOKMARK [1][-]{section.5.5}{Dependency}{chapter.5}% 54
+\BOOKMARK [0][-]{chapter*.5}{Bibliography}{}% 55
+\BOOKMARK [1][-]{section*.6}{Books}{chapter*.5}% 56
+\BOOKMARK [1][-]{section*.7}{Articles}{chapter*.5}% 57
+\BOOKMARK [0][-]{section*.8}{Index}{}% 58
